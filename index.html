@@ -9,6 +9,8 @@
     <meta property="og:title" content="André Filipe | Portfólio Profissional">
     <meta property="og:description" content="Criando experiências digitais memoráveis com Web Design, Design Gráfico e Edição de Fotos.">
     <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -53,7 +55,7 @@
                 <!-- Pasta 1: Redes Sociais & Marketing -->
                 <a href="redes-sociais.html" class="project-card folder-card fade-up" style="text-decoration: none; color: inherit;">
                     <div class="folder-image" style="padding: 0;">
-                        <img src="images/E-mail%20Cryst%20Shop.pdf.png" alt="Redes Sociais & Marketing" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.7; transition: var(--transition);">
+                        <img src="images/cryst_instagram_cover.png" alt="Redes Sociais & Marketing" style="width: 100%; height: 100%; object-fit: cover; object-position: top center; opacity: 0.85; transition: var(--transition);">
                     </div>
                     <div class="project-info">
                         <h3 style="color: var(--accent-cyan);">Redes Sociais & Marketing</h3>
@@ -89,60 +91,54 @@
         <section id="about" class="about section">
             <div class="about-card fade-up">
                 <div class="about-grid">
-                    <!-- Coluna da Foto com Badge de Estado -->
+                    <!-- Coluna da Foto -->
                     <div class="about-image-column">
                         <div class="about-image-wrapper" data-lightbox data-lightbox-src="images/andre_profile.png" data-lightbox-caption="André Filipe - Foto de Perfil">
                             <img src="images/andre_profile.png" alt="André Filipe">
                         </div>
-                        <div class="about-status-badge">
-                            <span style="width: 8px; height: 8px; background: #10b981; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #10b981;"></span>
-                            <span>Disponível para Novos Projetos</span>
-                        </div>
                     </div>
 
-                    <!-- Coluna de Texto & Estatísticas -->
+                    <!-- Coluna de Texto Humana & Limpa -->
                     <div class="about-content">
-                        <div style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.35rem 0.9rem; background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.25); border-radius: 50px; color: var(--accent-color); font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">
-                            <span>SOBRE MIM</span>
-                        </div>
-                        <h2 class="section-title" style="margin-bottom: 1.25rem;">Um Pouco <span class="gradient-text">Sobre Mim</span></h2>
+                        <h2 class="section-title" style="margin-bottom: 1.5rem; text-align: left;">Sobre Mim</h2>
                         
-                        <p style="font-size: 1.15rem; color: #e5e7eb; margin-bottom: 1rem;">
-                            Olá! Sou o <strong>André Filipe</strong>. O meu foco principal está no <strong>Marketing Digital</strong> e na estratégia de comunicação visual.
+                        <p style="font-size: 1.15rem; color: #f3f4f6; margin-bottom: 1rem; line-height: 1.6;">
+                            Olá! Sou o <strong>André Filipe</strong>. O meu foco profissional está no <strong>Marketing Digital</strong>, na criação de conteúdos estratégicos e no posicionamento de marcas.
                         </p>
-                        <p style="font-size: 1rem; color: var(--secondary-text); margin-bottom: 1.5rem;">
-                            Combino a vertente de mercado com competências práticas em <strong>Design Digital</strong>, <strong>Edição de Fotografia</strong> e <strong>Web Design</strong>, desenvolvendo conteúdos autênticos e pensados para alcançar o público certo.
+                        <p style="font-size: 1rem; color: var(--secondary-text); margin-bottom: 2rem; line-height: 1.6;">
+                            Combino a vertente de mercado com competências em <strong>Design Digital</strong>, <strong>Edição de Fotografia</strong> e <strong>Web Design</strong>, desenvolvendo trabalhos autênticos e pensados para alcançar o público certo.
                         </p>
 
-                        <!-- Grelha de Estatísticas Rápidas -->
-                        <div class="about-stats-grid">
-                            <div class="about-stat-box">
-                                <div class="about-stat-val">Marketing</div>
-                                <div class="about-stat-lbl">Estratégia & Conteúdo</div>
+                        <!-- Lista Limpa de Competências com Ícones Vetoriais SVG -->
+                        <div class="about-services-list">
+                            <div class="service-item">
+                                <img src="images/icons/icon-marketing.svg" alt="Marketing Digital" class="service-icon-img">
+                                <div>
+                                    <strong>Marketing Digital</strong>
+                                    <p>Estratégia de conteúdo, gestão de redes sociais e campanhas.</p>
+                                </div>
                             </div>
-                            <div class="about-stat-box">
-                                <div class="about-stat-val">Design</div>
-                                <div class="about-stat-lbl">Criativos para Redes</div>
+                            <div class="service-item">
+                                <img src="images/icons/icon-design.svg" alt="Design Digital" class="service-icon-img">
+                                <div>
+                                    <strong>Design Digital</strong>
+                                    <p>Identidade visual, criativos para redes e peças de comunicação (Intermédio).</p>
+                                </div>
                             </div>
-                            <div class="about-stat-box">
-                                <div class="about-stat-val">Fotografia</div>
-                                <div class="about-stat-lbl">Tratamento & Retoque</div>
+                            <div class="service-item">
+                                <img src="images/icons/icon-camera.svg" alt="Fotografia & Edição" class="service-icon-img">
+                                <div>
+                                    <strong>Fotografia & Edição</strong>
+                                    <p>Tratamento de cor, manipulação e retoque profissional de imagem.</p>
+                                </div>
                             </div>
-                            <div class="about-stat-box">
-                                <div class="about-stat-val">Web</div>
-                                <div class="about-stat-lbl">Sites Responsivos</div>
+                            <div class="service-item">
+                                <img src="images/icons/icon-web.svg" alt="Web Design" class="service-icon-img">
+                                <div>
+                                    <strong>Web Design</strong>
+                                    <p>Criação de páginas web modernas, limpas e responsivas (Intermédio).</p>
+                                </div>
                             </div>
-                        </div>
-
-                        <!-- Pílulas de Competências -->
-                        <div class="about-skills-pills">
-                            <span class="skill-pill" style="background: rgba(6, 182, 212, 0.15); border-color: rgba(6, 182, 212, 0.4); color: #22d3ee;">Marketing Digital (Foco Principal)</span>
-                            <span class="skill-pill">Gestão de Conteúdo</span>
-                            <span class="skill-pill">Design Digital (Intermédio)</span>
-                            <span class="skill-pill">Web Design (Intermédio)</span>
-                            <span class="skill-pill">Retoque de Fotografia</span>
-                            <span class="skill-pill">Adobe Illustrator (Básico)</span>
-                            <span class="skill-pill">Social Media Ads</span>
                         </div>
                     </div>
                 </div>
