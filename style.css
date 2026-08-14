@@ -317,7 +317,7 @@ p {
 /* Projects Section */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2.5rem;
 }
 
@@ -657,6 +657,10 @@ footer {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
     .about-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
