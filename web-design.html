@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design | André Filipe - Portfólio</title>
+    <meta name="description" content="Projetos de Web Design e UI/UX desenvolvidos por André Filipe. Websites modernos, intuitivos e responsivos.">
+    <meta name="keywords" content="Web Design, UI/UX, Vercel, Sites Responsivos, Sofia Brilha, Project Cryst, André Filipe">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-follower"></div>
+
+    <nav class="navbar scrolled">
+        <div class="logo">AF.</div>
+        <ul class="nav-links">
+            <li><a href="index.html#projects">Voltar</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section" style="padding-top: 150px; min-height: 80vh;">
+            <h1 class="fade-up">Web Design</h1>
+            <p class="fade-up delay-1">Projetos focados em interfaces de utilizador e experiências web imersivas.</p>
+            
+            <div class="project-grid" style="margin-top: 4rem;">
+                <!-- Projeto: Sofia Brilha -->
+                <div class="project-card fade-up delay-2">
+                    <div class="project-image" data-lightbox data-lightbox-src="images/sofia_brilha_cover.png" data-lightbox-caption="Sofia Brilha - Plataforma Web">
+                        <img src="images/sofia_brilha_cover.png" alt="Sofia Brilha Web Design" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Sofia Brilha</h3>
+                        <p>Plataforma web moderna e responsiva para serviços de limpeza e organização.</p>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+                            <a href="https://sofia-brilha.vercel.app/" target="_blank" class="project-link">Visitar Site ↗</a>
+                            <a href="#" data-lightbox data-lightbox-src="images/sofia_brilha_cover.png" data-lightbox-caption="Sofia Brilha - Capa Completa" class="project-link" style="color: var(--accent-cyan);">Ver Imagem Completa</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto: Project Cryst -->
+                <div class="project-card fade-up delay-3">
+                    <div class="project-image" data-lightbox data-lightbox-src="images/project_cryst_cover.jpg" data-lightbox-caption="Project Cryst - Experiência Web Imersiva">
+                        <img src="images/project_cryst_cover.jpg" alt="Project Cryst Web Design" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Cryst</h3>
+                        <p>Experiência web otimizada e imersiva com estética estelar e minimalista.</p>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+                            <a href="https://projectcryst.vercel.app/" target="_blank" class="project-link">Visitar Site ↗</a>
+                            <a href="#" data-lightbox data-lightbox-src="images/project_cryst_cover.jpg" data-lightbox-caption="Project Cryst - Capa Completa" class="project-link" style="color: var(--accent-cyan);">Ver Imagem Completa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal com Botão X -->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <button id="lightbox-close" class="lightbox-close" title="Fechar (ESC)">&times;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Visualização em tamanho cheio" />
+            <h3 id="lightbox-caption"></h3>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 André Filipe. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

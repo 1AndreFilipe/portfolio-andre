@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edição de Fotos | André Filipe - Portfólio</title>
+    <meta name="description" content="Trabalhos de Edição de Fotos, Retoque Profissional e Correção de Cor por André Filipe.">
+    <meta name="keywords" content="Edição de Fotos, Retoque Fotográfico, Photoshop, Correção de Cor, André Filipe">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-follower"></div>
+
+    <nav class="navbar scrolled">
+        <div class="logo">AF.</div>
+        <ul class="nav-links">
+            <li><a href="index.html#projects">Voltar</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section" style="padding-top: 150px; min-height: 80vh;">
+            <h1 class="fade-up">Edição de Fotos</h1>
+            <p class="fade-up delay-1">Retoque, correção de cor e manipulação de imagem a nível profissional.</p>
+            
+            <div class="project-grid" style="margin-top: 4rem;">
+                <div class="project-card fade-up delay-2" data-lightbox data-lightbox-src="images/22222.png" data-lightbox-caption="Edição 22222 - Retoque & Fotomontagem">
+                    <div class="project-image">
+                        <img src="images/22222.png" alt="Edição 22222" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Edição 22222</h3>
+                        <p>Trabalho de edição de foto.</p>
+                        <a href="images/22222.png" class="project-link">Ver Imagem Completa</a>
+                    </div>
+                </div>
+                <div class="project-card fade-up delay-3" data-lightbox data-lightbox-src="images/bus%204.png" data-lightbox-caption="Bus 4 - Tratamento & Manipulação de Imagem">
+                    <div class="project-image">
+                        <img src="images/bus%204.png" alt="Bus 4" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Bus 4</h3>
+                        <p>Edição / Tratamento de imagem.</p>
+                        <a href="images/bus%204.png" class="project-link">Ver Imagem Completa</a>
+                    </div>
+                </div>
+                <div class="project-card fade-up delay-1" data-lightbox data-lightbox-src="images/Bus%205.png" data-lightbox-caption="Bus 5 - Tratamento & Manipulação de Imagem">
+                    <div class="project-image">
+                        <img src="images/Bus%205.png" alt="Bus 5" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Bus 5</h3>
+                        <p>Edição / Tratamento de imagem.</p>
+                        <a href="images/Bus%205.png" class="project-link">Ver Imagem Completa</a>
+                    </div>
+                </div>
+                <div class="project-card fade-up delay-2" data-lightbox data-lightbox-src="images/bus%206.png" data-lightbox-caption="Bus 6 - Tratamento & Manipulação de Imagem">
+                    <div class="project-image">
+                        <img src="images/bus%206.png" alt="Bus 6" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Bus 6</h3>
+                        <p>Edição / Tratamento de imagem.</p>
+                        <a href="images/bus%206.png" class="project-link">Ver Imagem Completa</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal com Botão X -->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <button id="lightbox-close" class="lightbox-close" title="Fechar (ESC)">&times;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Visualização em tamanho cheio" />
+            <h3 id="lightbox-caption"></h3>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 André Filipe. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
